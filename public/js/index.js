@@ -4,7 +4,7 @@
 var settings= {
     apiKey:"uDheiwakild87O8GMTXEFtygpGaHGSGs" ,
     "url": "https://api.nytimes.com/svc/news/v3/content/all/all.json",
-    limit:5,
+    limit:500,
     offset:0,
     makeUrl: function(){
       return {url:this.url+"?api-key="+this.apiKey+"&limit="+this.limit+"&offset="+this.offset,

@@ -20,7 +20,7 @@ EXPOSE 8080
 
 # App related environment variables
 
-ENV APPNAME=ssapp
+
 ENV APPLOC=./public
 ENV APPENTRY=logon.html
 ENV APPHOST=0.0.0.0
